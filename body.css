@@ -1,0 +1,49 @@
+body{
+  background-color: #e9e9e9;
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 80px;
+  align-items: flex-start;
+}
+
+
+.coluna-esquerda{
+    grid-column: 1;
+}
+
+
+.coluna-direita{
+    grid-column: 2;
+}
+
+
+h2{
+    color: #e4a532;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px
+}
+
+
+p{
+    color: #444342;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    
+}
+
+
+strong{
+    color: #444342;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    
+}
+
+
+ul{
+    color: #444342;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    
+}
